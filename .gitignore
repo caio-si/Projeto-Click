@@ -1,0 +1,28 @@
+# Build outputs
+bin/
+obj/
+publish/
+publish-simple/
+publish-working/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Executáveis
+*.exe
+*.dll
+*.pdb
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
