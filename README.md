@@ -2,7 +2,7 @@
 
 Um software desenvolvido em C# WPF para realizar cliques automáticos do mouse, ideal para manter status ativo em aplicações como Microsoft Teams.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Click Automático**: Clique direito do mouse em intervalos configuráveis
 - **Interface Intuitiva**: Design moderno e fácil de usar
@@ -11,7 +11,7 @@ Um software desenvolvido em C# WPF para realizar cliques automáticos do mouse, 
 - **Estatísticas**: Contador de cliques e tempo ativo
 - **Executável Único**: Sem dependências externas
 
-## 🎯 Características Técnicas
+##  Características Técnicas
 
 - **Framework**: .NET 6.0 WPF
 - **Plataforma**: Windows 10/11
@@ -19,7 +19,7 @@ Um software desenvolvido em C# WPF para realizar cliques automáticos do mouse, 
 - **APIs**: Windows User32.dll para simulação de mouse
 - **Threading**: Background tasks para operações não-bloqueantes
 
-## 📦 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 ClickAutomation/
@@ -33,8 +33,7 @@ ClickAutomation/
 └── ClickAutomation.csproj       # Arquivo do projeto
 ```
 
-## 🛠️ Como Compilar
-
+##  Como Compilar
 ### Pré-requisitos
 - .NET 9.0 SDK ou superior
 - Visual Studio 2022 ou VS Code
@@ -52,7 +51,7 @@ dotnet build --configuration Release
 dotnet publish --configuration Release --runtime win-x64 --self-contained true --single-file
 ```
 
-## 📦 Versões de Distribuição
+##  Versões de Distribuição
 
 O projeto oferece três versões diferentes para distribuição, cada uma com suas características específicas:
 
@@ -62,10 +61,10 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained false 
 ```
 
 **Características:**
-- ✅ **Tamanho mínimo** (186 KB)
-- ✅ **Compilação rápida**
-- ❌ **Requer .NET 9.0** instalado no computador de destino
-- ❌ **Múltiplos arquivos** (executável + DLLs do .NET)
+-  **Tamanho mínimo** (186 KB)
+-  **Compilação rápida**
+-  **Requer .NET 9.0** instalado no computador de destino
+-  **Múltiplos arquivos** (executável + DLLs do .NET)
 
 **Ideal para:** Desenvolvimento e testes locais
 
@@ -75,9 +74,9 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 ```
 
 **Características:**
-- ✅ **Self-contained** (não precisa do .NET instalado)
-- ✅ **Múltiplos arquivos** (mais estável)
-- ✅ **Compatibilidade máxima**
+-  **Self-contained** (não precisa do .NET instalado)
+-  **Múltiplos arquivos** (mais estável)
+-  **Compatibilidade máxima**
 - ❌ **Tamanho maior** (120 MB)
 - ❌ **Muitos arquivos** para distribuir
 
@@ -89,9 +88,9 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 ```
 
 **Características:**
-- ✅ **Arquivo único** (apenas 1 arquivo)
-- ✅ **Self-contained** (não precisa do .NET instalado)
-- ✅ **Fácil distribuição** (só enviar 1 arquivo)
+-  **Arquivo único** (apenas 1 arquivo)
+-  **Self-contained** (não precisa do .NET instalado)
+-  **Fácil distribuição** (só enviar 1 arquivo)
 - ❌ **Tamanho grande** (120 MB)
 - ❌ **Pode ter problemas** de compatibilidade em alguns sistemas
 
@@ -105,34 +104,34 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 | Working | 120 MB | Múltiplos | ❌ Não | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Single-File | 120 MB | 1 arquivo | ❌ Não | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
-### **🎯 Recomendação de Uso**
+### ** Recomendação de Uso**
 
 - **Desenvolvimento:** Use `publish-simple`
 - **Distribuição geral:** Use `publish-working`
 - **Distribuição simples:** Use `publish` (single-file)
 
-## 🎮 Como Usar
+##  Como Usar
 
 1. **Configurar Intervalo**: Use o slider para definir o tempo entre cliques (1-300 segundos)
 2. **Iniciar**: Clique no botão "▶️ Iniciar" para começar o click automático
 3. **Monitorar**: Acompanhe as estatísticas e indicadores visuais
 4. **Parar**: Clique em "⏹️ Parar" para interromper a operação
 
-## ⚙️ Configurações
+## Configurações
 
 - **Intervalo Recomendado**: 30-60 segundos para Teams
 - **Posição do Mouse**: Clique na posição atual (não move o cursor)
 - **Tipo de Click**: Botão direito do mouse
 - **Persistência**: Configurações salvas automaticamente
 
-## 🔒 Segurança
+##  Segurança
 
 - **Não Move o Cursor**: Apenas clica na posição atual
 - **Detecção de Janelas**: Evita cliques em aplicações sensíveis
 - **Baixo Consumo**: Otimizado para uso contínuo
 - **Logs de Atividade**: Rastreamento de operações
 
-## 📊 Recursos da Interface
+##  Recursos da Interface
 
 - **Indicador de Status**: Círculo colorido com animação de pulso
 - **Controles Intuitivos**: Botões Start/Stop com feedback visual
@@ -140,18 +139,18 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 - **Design Responsivo**: Adapta-se a diferentes tamanhos de tela
 - **Animações Suaves**: Feedback visual para todas as ações
 
-## 🚨 Avisos Importantes
+##  Avisos Importantes
 
 - Use com responsabilidade e moderação
 - Não abuse em ambientes corporativos
 - Respeite as políticas de uso dos aplicativos
 - Mantenha o software atualizado
 
-## 📝 Licença
+##  Licença
 
 Este projeto é desenvolvido para fins educacionais e de produtividade pessoal.
 
-## 🔧 Desenvolvimento
+##  Desenvolvimento
 
 ### Tecnologias Utilizadas
 - **C# 10** - Linguagem principal
@@ -169,6 +168,5 @@ Este projeto é desenvolvido para fins educacionais e de produtividade pessoal.
 
 ---
 
-**Desenvolvido com ❤️ para produtividade**
 
 **Desenvolvido por Caio da Silva Figueredo**
